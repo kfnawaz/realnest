@@ -20,7 +20,7 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSlider />
+      {/* <InfoSlider /> */}
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjThree} />
