@@ -59,7 +59,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn> <NavBtnLink to='/realnest/signin'>Sign In</NavBtnLink>
+            <NavBtn> <NavBtnLink to='/signin'>Sign In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

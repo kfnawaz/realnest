@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/realnest' component={Home} exact />
-        <Route path='/realnest/signin' component={SigninPage} exact />
+        <Route path='/' component={Home} exact />
+        <Route path='/signin' component={SigninPage} exact />
       </Switch>
     </Router>
   );
