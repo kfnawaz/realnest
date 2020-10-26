@@ -38,64 +38,28 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo onClick={toggleHome} to='/'>
-              RealNest LLC ® 
-            </NavLogo>
+            <NavLogo onClick={toggleHome} to='/realnest'>RealNest</NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks
-                  to='about'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  About
-                </NavLinks>
+                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to='choices'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Choices
-                </NavLinks>
+                <NavLinks to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Projects</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to='services'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Services
-                </NavLinks>
+                <NavLinks to='choices' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Choices</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to='signup'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Sign Up
-                </NavLinks>
+                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80} >Services</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtn> <NavBtnLink to='/realnest/signin'>Sign In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

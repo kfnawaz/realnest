@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'Total Visibility',
   headline: 'Access all details of Vested Projects',
   description:
-    'Get access to our exclusive app that allows you to track financials and progress on your projects',
+    'Get access to our exclusive app that allows you to track financials and progress on your projects.',
   buttonLabel: 'Get Started',
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Investment Style',
-  headline: 'Pick an Investment Strategy',
+  headline: 'Pick a Investment Strategy',
   description:
     'We have you covered... Choose the investment option that suits your style.',
   buttonLabel: 'Learn More',
@@ -42,7 +42,7 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Invest in Realty and Grow with Us',
-  headline: 'Creating an account is extremely easy',
+  headline: 'Creating an account is easy',
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is pitch in some money and you're ready to go.",
   buttonLabel: 'Start Now',
