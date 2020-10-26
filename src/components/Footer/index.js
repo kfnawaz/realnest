@@ -35,49 +35,49 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/realnest'>Testimonials</FooterLink>
-              <FooterLink to='/realnest'>Careers</FooterLink>
-              <FooterLink to='/realnest'>Investors</FooterLink>
-              <FooterLink to='/realnest'>Terms of Service</FooterLink>
+              <FooterLink to='/'>Testimonials</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink to='/'>Investors</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/realnest'>Contact</FooterLink>
-              <FooterLink to='/realnest'>Support</FooterLink>
-              <FooterLink to='/realnest'>Destinations</FooterLink>
-              <FooterLink to='/realnest'>Sponsorships</FooterLink>
+              <FooterLink to='/'>Contact</FooterLink>
+              <FooterLink to='/'>Support</FooterLink>
+              <FooterLink to='/'>Destinations</FooterLink>
+              <FooterLink to='/'>Sponsorships</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to='/realnest'>Submit Video</FooterLink>
-              <FooterLink to='/realnest'>Ambassadors</FooterLink>
-              <FooterLink to='/realnest'>Agency</FooterLink>
-              <FooterLink to='/realnest'>Influencer</FooterLink>
+              <FooterLink to='/'>Submit Video</FooterLink>
+              <FooterLink to='/'>Ambassadors</FooterLink>
+              <FooterLink to='/'>Agency</FooterLink>
+              <FooterLink to='/'>Influencer</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='/realnest'>Instagram</FooterLink>
-              <FooterLink to='/realnest'>Facebook</FooterLink>
-              <FooterLink to='/realnest'>Youtube</FooterLink>
-              <FooterLink to='/realnest'>Twitter</FooterLink>
+              <FooterLink to='/'>Instagram</FooterLink>
+              <FooterLink to='/'>Facebook</FooterLink>
+              <FooterLink to='/'>Youtube</FooterLink>
+              <FooterLink to='/'>Twitter</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/realnest' onClick={toggleHome}>RealNest ®</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>RealNest ®</SocialLogo>
             <WebsiteRights>RealNest © 2020 All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/realnest' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/realnest' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='/realnest'
+                href='/'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
@@ -87,11 +87,11 @@ const Footer = () => {
               <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
-                href='/realnest'
+                href='/'
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='/realnest' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
