@@ -26,7 +26,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Realilty Investments Made Easy</HeroH1>
+        <HeroH1>Realty Investments Made Easy</HeroH1>
         <HeroP>
           Invest with confidence in projects near you and see them make money for you.
         </HeroP>
