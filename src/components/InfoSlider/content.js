@@ -1,12 +1,10 @@
 export default [
 	{
-		title: 'Vulputate Mollis Ultricies',
+		title: 'Nathanial Brown',
 		description:
-			'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
+			'Before',
 		button: 'Read More',
-		image: 'https://i.imgur.com/ZXBtVw7.jpg',
-		user: 'Daniel',
-		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		image: '/src/images/front-after.jpeg',
 	},
 	{
 		title: 'Tortor Dapibus',
