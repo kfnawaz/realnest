@@ -5,11 +5,11 @@ import google_icon from "./../../icons/google.svg";
 import { refreshTokenSetup } from "../../utils/refreshToken";
 
 const clientId =
-  "900371630577-pem6p0r80k2tc7sd0025b732hju6f4e3.apps.googleusercontent.com";
+  "800686250578-45v46gtkqjjkplf3c69pguijv9i4h0pe.apps.googleusercontent.com";
 
 function Login() {
   const onSuccess = (res) => {
-    // console.log("Login Success: currentUser:", res.profileObj);
+    console.log("Login Success: currentUser:", res.profileObj);
     console.log(
       `Logged in successfully welcome. \n See console for full profile object.`
     );
@@ -17,7 +17,7 @@ function Login() {
   };
 
   const onFailure = (res) => {
-    // console.log("Login failed: res:", res);
+    console.log("Login failed: res:", res);
     console.log(`Failed to login. 😢`);
   };
 

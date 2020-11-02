@@ -9,8 +9,7 @@ function InfoSlider() {
 		<div className={styles.page}>
 			<Slider classNames={horizontalCss} autoplay={3000}>
 				{content.map((item, index) => (
-					<div key={index} style={{ background: `src=('${item.image}') no-repeat center center` }}>
-					{/* <div key={index} style={{ background: `url('${item.image}') no-repeat center center` }}> */}
+					<div key={index} style={{ background: `url('${item.image}') no-repeat center center` }}>
 						{/* <div className={styles.center}> */}
 						<div style={{ textAlign: "center", alignContent: "center", position: "absolute", top: "25%", left: "50%", transform: "translate(-50%, -50%)",}} >
 							<h1>{item.title}</h1>
