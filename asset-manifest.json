@@ -1,29 +1,36 @@
 {
   "files": {
     "main.css": "/realnest/static/css/main.41271660.chunk.css",
-    "main.js": "/realnest/static/js/main.ab63b1e6.chunk.js",
-    "main.js.map": "/realnest/static/js/main.ab63b1e6.chunk.js.map",
+    "main.js": "/realnest/static/js/main.4995441b.chunk.js",
+    "main.js.map": "/realnest/static/js/main.4995441b.chunk.js.map",
     "runtime-main.js": "/realnest/static/js/runtime-main.f2fbafed.js",
     "runtime-main.js.map": "/realnest/static/js/runtime-main.f2fbafed.js.map",
-    "static/js/2.fcb20c7b.chunk.js": "/realnest/static/js/2.fcb20c7b.chunk.js",
-    "static/js/2.fcb20c7b.chunk.js.map": "/realnest/static/js/2.fcb20c7b.chunk.js.map",
+    "static/js/2.0eedcc1e.chunk.js": "/realnest/static/js/2.0eedcc1e.chunk.js",
+    "static/js/2.0eedcc1e.chunk.js.map": "/realnest/static/js/2.0eedcc1e.chunk.js.map",
     "index.html": "/realnest/index.html",
-    "precache-manifest.adbe4f40d9e179e39a93b4bcad26345b.js": "/realnest/precache-manifest.adbe4f40d9e179e39a93b4bcad26345b.js",
+    "precache-manifest.71fbc40d6006ad6b1554fa3502eb733a.js": "/realnest/precache-manifest.71fbc40d6006ad6b1554fa3502eb733a.js",
     "service-worker.js": "/realnest/service-worker.js",
     "static/css/main.41271660.chunk.css.map": "/realnest/static/css/main.41271660.chunk.css.map",
-    "static/js/2.fcb20c7b.chunk.js.LICENSE.txt": "/realnest/static/js/2.fcb20c7b.chunk.js.LICENSE.txt",
+    "static/js/2.0eedcc1e.chunk.js.LICENSE.txt": "/realnest/static/js/2.0eedcc1e.chunk.js.LICENSE.txt",
+    "static/media/car1.png": "/realnest/static/media/car1.ac3dfb6d.png",
+    "static/media/car2.png": "/realnest/static/media/car2.cd88ef36.png",
+    "static/media/car3.png": "/realnest/static/media/car3.91f7f9b5.png",
     "static/media/google.svg": "/realnest/static/media/google.81ad048e.svg",
     "static/media/home2.png": "/realnest/static/media/home2.75e3d4f7.png",
+    "static/media/investment.jpg": "/realnest/static/media/investment.ed38389b.jpg",
+    "static/media/logo11.png": "/realnest/static/media/logo11.a0c83763.png",
+    "static/media/progress_img.jpeg": "/realnest/static/media/progress_img.ec5acddb.jpeg",
+    "static/media/share.jpg": "/realnest/static/media/share.344cc33d.jpg",
     "static/media/svg-1.svg": "/realnest/static/media/svg-1.715313cd.svg",
     "static/media/svg-3.svg": "/realnest/static/media/svg-3.d9e440a5.svg",
     "static/media/svg-5.svg": "/realnest/static/media/svg-5.494b2abd.svg",
-    "static/media/ticketVase.png": "/realnest/static/media/ticketVase.4038bb4e.png",
+    "static/media/trust.webp": "/realnest/static/media/trust.a73efaf6.webp",
     "static/media/video.mp4": "/realnest/static/media/video.5896c741.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.f2fbafed.js",
-    "static/js/2.fcb20c7b.chunk.js",
+    "static/js/2.0eedcc1e.chunk.js",
     "static/css/main.41271660.chunk.css",
-    "static/js/main.ab63b1e6.chunk.js"
+    "static/js/main.4995441b.chunk.js"
   ]
 }
