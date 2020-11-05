@@ -17,15 +17,15 @@ h2 {
 	margin: auto;
 	display: inline-block;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 }
 
 p {
-	text-align: center;
+	text-align: left;
 }
 
 header {
