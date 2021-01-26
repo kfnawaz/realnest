@@ -5,6 +5,9 @@ import Icon3 from "../../images/svg-5.svg";
 import growth from "../../images/growth.png";
 import investment from "../../images/investment.jpg";
 import trust from "./../../images/trust.webp";
+import visibility from "./../../images/visibility.png";
+import safety from "../../images/safety.png";
+import competition from "./../../images/competition.jpg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -53,7 +56,7 @@ const Services = () => {
               width: 150,
               height: "auto",
             }}
-            src={growth}
+            src={competition}
             alt="growth"
           />
           <ServicesH2>Competitive Growth</ServicesH2>
@@ -69,7 +72,7 @@ const Services = () => {
               width: 150,
               height: "auto",
             }}
-            src={investment}
+            src={safety}
             alt="growth"
           />
           <ServicesH2>Safest Investment Tool</ServicesH2>
@@ -93,6 +96,23 @@ const Services = () => {
             You are in good hands with people who know this business and have
             develoeped an end to end chain of professionals in a variety of
             change.
+          </ServicesP>
+        </ServicesCard>
+
+        <ServicesCard>
+          {/* <ServicesIcon src={Icon3} /> */}
+          <img
+            style={{
+              width: 170,
+              height: "auto",
+            }}
+            src={visibility}
+            alt="growth"
+          />
+          <ServicesH2>Complete Visibility</ServicesH2>
+          <ServicesP>
+            Your will have visibility to Investor Models, Project Financials,
+            and Periodic Updates on Project Progress.
           </ServicesP>
         </ServicesCard>
         {/* <ServicesCard>

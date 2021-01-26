@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kfnawaz.github.io/realnest",
+  "homepage": "https://realnesthomes.com",
   "name": "realnest",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
     "react-scroll": "^1.8.1",
+    "reactstrap": "^8.7.1",
     "styled-components": "^5.2.0"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
