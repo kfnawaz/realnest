@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button } from '../ButtonElements';
+import React from "react";
+import { Button } from "../ButtonElements";
 import {
   InfoContainer,
   InfoWrapper,
@@ -10,10 +10,11 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Subtitle1,
   BtnWrap,
   ImgWrap,
-  Img
-} from './InfoElements';
+  Img,
+} from "./InfoElements";
 
 const InfoSection = ({
   lightBg,
@@ -22,6 +23,7 @@ const InfoSection = ({
   lightText,
   headline,
   description,
+  description2,
   buttonLabel,
   img,
   alt,
@@ -29,7 +31,12 @@ const InfoSection = ({
   primary,
   darkText,
   dark,
-  dark2
+  dark2,
+  pt1,
+  pt2,
+  pt3,
+  pt4,
+  pt5,
 }) => {
   console.log(primary);
   return (
@@ -41,14 +48,33 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
+                <h3
+                  style={{
+                    fontSize: 25,
+                    fontWeight: 300,
+                    textAlign: "right",
+                    color: "#01bf71",
+                  }}
+                >
+                  Formed in 2019
+                </h3>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <div style={{ textAlign: "center" }}>
+                  <Subtitle1 darkText={darkText}>{pt1}</Subtitle1>
+                  <Subtitle1 darkText={darkText}>{pt2}</Subtitle1>
+                  <Subtitle1 darkText={darkText}>{pt3}</Subtitle1>
+                  <Subtitle1 darkText={darkText}>{pt4}</Subtitle1>
+                  <Subtitle1 darkText={darkText}>{pt5}</Subtitle1>
+                </div>
+
+                {/* <BtnWrap>
                   <Button
-                    to='home'
+                    to="home"
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact='true'
+                    exact="true"
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
@@ -56,7 +82,7 @@ const InfoSection = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

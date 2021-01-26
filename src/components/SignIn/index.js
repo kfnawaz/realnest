@@ -13,7 +13,7 @@ import {
   Text,
 } from "./SigninElements";
 
-const SignIn = () => {
+const SignIn = (props) => {
   return (
     <>
       <Container>
@@ -28,7 +28,7 @@ const SignIn = () => {
               <FormInput type="password" required />
               <FormButton type="submit">Continue</FormButton>
               <Text>Forgot password</Text>
-              <Login />
+              <Login isSignedIn={props.isSignedIn} />
             </Form>
           </FormContent>
         </FormWrap>

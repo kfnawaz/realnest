@@ -7,13 +7,14 @@ import { refreshTokenSetup } from "../../utils/refreshToken";
 const clientId =
   "800686250578-45v46gtkqjjkplf3c69pguijv9i4h0pe.apps.googleusercontent.com";
 
-function Login() {
+function Login(props) {
   const onSuccess = (res) => {
     console.log("Login Success: currentUser:", res.profileObj);
     console.log(
       `Logged in successfully welcome. \n See console for full profile object.`
     );
     refreshTokenSetup(res);
+    props.isSignedIn(res.profileObj);
   };
 
   const onFailure = (res) => {
@@ -28,7 +29,6 @@ function Login() {
     isSignedIn: true,
     accessType: "offline",
     cookiePolicy: "single_host_origin",
-    isSignedIn: true,
     // responseType: 'code',
     // prompt: 'consent',
   });
