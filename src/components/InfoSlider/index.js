@@ -4,6 +4,7 @@ import styles from "./styles.css";
 import horizontalCss from "./horizontal.css";
 import content from "./content";
 import { Link } from "react-router-dom";
+import { NavBtnLink } from "../Navbar/NavbarElements";
 
 function InfoSlider() {
   return (
@@ -54,13 +55,19 @@ function InfoSlider() {
               <p>{item.description}</p>
               <br /> */}
               {item.button && (
-                <Link to="/progress">
-                  <button
-                    style={{ backgroundColor: "white", borderRadius: "none" }}
-                  >
+                <div style={{ marginTop: "10%" }}>
+                  <NavBtnLink target="_blank" to="/progress">
                     {item.button}
-                  </button>
-                </Link>
+                  </NavBtnLink>
+
+                  <NavBtnLink
+                    style={{ marginLeft: 20 }}
+                    target="_blank"
+                    to="/listing"
+                  >
+                    {item.buttontwo}
+                  </NavBtnLink>
+                </div>
               )}
               {/* <img
                 style={{ width: "100%", height: "100%", margin: "auto" }}

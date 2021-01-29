@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Button } from '../ButtonElements';
+import React, { useState } from "react";
+import { Button } from "../ButtonElements";
 
-import Video from '../../videos/video.mp4';
+import Video from "../../videos/video.mp4";
 import {
   HeroContainer,
   HeroBg,
@@ -11,8 +11,8 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
-} from './HeroElements';
+  ArrowRight,
+} from "./HeroElements";
 
 function HeroSection() {
   const [hover, setHover] = useState(false);
@@ -21,25 +21,26 @@ function HeroSection() {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='home'>
+    <HeroContainer id="home">
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Realty Investments Made Easy</HeroH1>
         <HeroP>
-          Invest with confidence in projects near you and see them make money for you.
+          Invest with confidence in projects near you and see them make money
+          for you.
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+            to="signup"
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
-            primary='true'
-            dark='true'
+            primary="true"
+            dark="true"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >

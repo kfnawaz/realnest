@@ -1,3 +1,4 @@
+import home from "../../images/home2.png";
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -17,7 +18,7 @@ export const homeObjOne = {
   buttonLabel: "Know More",
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: require("../../images/home2.png"),
+  img: home,
   alt: "Car",
   dark: true,
   primary: true,

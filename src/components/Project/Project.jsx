@@ -1,5 +1,5 @@
 import React from "react";
-import progress from "../../images/progress_img.jpeg";
+import progress from "../../images/progress100.jpeg";
 const Project = () => {
   return (
     <div style={{ textAlign: "center" }}>

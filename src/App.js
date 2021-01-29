@@ -12,7 +12,26 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/progress" component={Project} exact />
+        {/* <Route path="/progress" component={Project} exact /> */}
+        <Route
+          path="/progress"
+          component={() => {
+            window.location.href =
+              "https://my.visme.co/view/n03mw0nz-westella-project-status-report-2021-jan-28";
+            return null;
+          }}
+          exact
+        />
+        <Route
+          path="/listing"
+          component={() => {
+            window.location.href =
+              "https://www.zillow.com/homes/12735-Westella-Dr-Houston,-TX,-77077_rb/28124087_zpid/";
+            return null;
+          }}
+          exact
+        />
+
         <Route path="/signin" component={SigninPage} exact />
       </Switch>
     </Router>

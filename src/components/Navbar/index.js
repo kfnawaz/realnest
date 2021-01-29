@@ -109,7 +109,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <NavBtn>
               {" "}
-              <NavBtnLink isSignedIn={isSignedIn} to="/signin">
+              <NavBtnLink isSignedIn={isSignedIn} to="/">
                 {name ? (
                   <div>
                     <img
