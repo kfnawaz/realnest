@@ -1,4 +1,6 @@
-import home from "../../images/home2.png";
+import homepic from "../../images/home2.png";
+import sharepic from "../../images/share.jpg";
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -18,7 +20,7 @@ export const homeObjOne = {
   buttonLabel: "Know More",
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
-  img: home,
+  img: homepic,
   alt: "Car",
   dark: true,
   primary: true,
@@ -39,7 +41,7 @@ export const homeObjTwo = {
   buttonLabel: "Learn More",
   imgStart: false,
   // img: require('../../images/svg-2.svg'),
-  img: require("../../images/share.jpg"),
+  img: sharepic,
   alt: "Piggybank",
   dark: false,
   primary: false,
