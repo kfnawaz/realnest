@@ -17,6 +17,7 @@ export default [
       "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
     button: "Project Progress",
     buttontwo: "HAR Listing",
+    buttonthree: "I AM GORGEOUS INSIDE",
     image: car3,
     user: "Samantha",
     userProfile: "https://s7.postimg.cc/ujy8zz7vv/5_3x.png",

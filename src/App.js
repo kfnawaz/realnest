@@ -31,6 +31,15 @@ function App() {
           }}
           exact
         />
+        <Route
+          path="/video"
+          component={() => {
+            window.location.href =
+              "https://youtu.be/olyVRWl6_EM";
+            return null;
+          }}
+          exact
+        />
 
         <Route path="/signin" component={SigninPage} exact />
       </Switch>

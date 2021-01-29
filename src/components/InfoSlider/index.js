@@ -67,6 +67,14 @@ function InfoSlider() {
                   >
                     {item.buttontwo}
                   </NavBtnLink>
+
+                  <NavBtnLink
+                    style={{ marginLeft: 20 }}
+                    target="_blank"
+                    to="/video"
+                  >
+                    {item.buttonthree}
+                  </NavBtnLink>
                 </div>
               )}
               {/* <img
