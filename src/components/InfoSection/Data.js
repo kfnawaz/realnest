@@ -18,6 +18,7 @@ export const homeObjOne = {
     "Aims at using halal means to grow it's capital assets and provide unmatched returns to the investors",
   pt5: "Is pursuing aggressive expansion in 2021",
   buttonLabel: "Know More",
+  text2: "Formed in 2019",
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
   img: homepic,

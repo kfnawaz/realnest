@@ -37,6 +37,7 @@ const InfoSection = ({
   pt3,
   pt4,
   pt5,
+  text2
 }) => {
   console.log(primary);
   return (
@@ -56,7 +57,7 @@ const InfoSection = ({
                     color: "#01bf71",
                   }}
                 >
-                  Formed in 2019
+                  {text2}
                 </h3>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
