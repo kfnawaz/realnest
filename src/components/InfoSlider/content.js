@@ -22,16 +22,16 @@ export default [
     user: "Daniel",
     userProfile: "https://s7.postimg.cc/abavelo3v/1_3x.png",
   },
-  {
-    title: "Phasellus volutpat metus",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
-    // button: "Buy now",
-    image: car2,
-    user: "Michael",
-    userProfile: "https://s7.postimg.cc/6exjimijv/3_3x.png",
-  },
-  //   {
+  // {
+  //   title: "Phasellus volutpat metus",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+  //   // button: "Buy now",
+  //   image: car2,
+  //   user: "Michael",
+  //   userProfile: "https://s7.postimg.cc/6exjimijv/3_3x.png",
+  // },
+  // //   {
   //     title: "Ultricies Vulputate Mollis",
   //     description:
   //       "Aenean eu leo quam. Pellentesque ornare sem lacinia  nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
