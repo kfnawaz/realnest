@@ -26,7 +26,7 @@ function InfoSlider() {
       >
         Projects
       </h1>
-      <Slider classNames={horizontalCss} autoplay={3000}>
+      <Slider classNames={horizontalCss} autoplay={5000}>
         {content.map((item, index) => (
           <div
             key={index}

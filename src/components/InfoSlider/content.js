@@ -3,15 +3,6 @@ import car2 from "../../images/car2.png";
 import car3 from "../../images/car3.jpeg";
 export default [
   {
-    title: "Vulputate Mollis Ultricies",
-    description:
-      "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.",
-    // button: "Read More",
-    image: car1,
-    user: "Daniel",
-    userProfile: "https://s7.postimg.cc/abavelo3v/1_3x.png",
-  },
-  {
     title: "Tortor Dapibus",
     description:
       "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
@@ -21,6 +12,15 @@ export default [
     image: car3,
     user: "Samantha",
     userProfile: "https://s7.postimg.cc/ujy8zz7vv/5_3x.png",
+  },
+{
+    title: "Vulputate Mollis Ultricies",
+    description:
+      "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.",
+    // button: "Read More",
+    image: car1,
+    user: "Daniel",
+    userProfile: "https://s7.postimg.cc/abavelo3v/1_3x.png",
   },
   {
     title: "Phasellus volutpat metus",
