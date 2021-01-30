@@ -35,7 +35,7 @@ function App() {
           path="/video"
           component={() => {
             window.location.href =
-              "https://youtu.be/olyVRWl6_EM";
+              "https://youtu.be/rYNmVCzd3Rg";
             return null;
           }}
           exact
