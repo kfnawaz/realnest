@@ -94,8 +94,8 @@ const Services = () => {
           <ServicesH2>Trust And Competency</ServicesH2>
           <ServicesP>
             You are in good hands with people who know this business and have
-            develoeped an end to end chain of professionals in a variety of
-            change.
+            developed an end to end chain of professionals in a variety of
+            trades.
           </ServicesP>
         </ServicesCard>
 
