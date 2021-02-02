@@ -33,7 +33,7 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Investment Style",
+  topLine: "Investment Model",
   headline: "EquiShare Model",
   description:
     "All Investors (including RealNest) share the profit and loss equitably based on their share of Cpital Investment in the Project.",

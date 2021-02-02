@@ -34,7 +34,7 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
+              <FooterLink to='/'>How it works</FooterLink>
               <FooterLink to='/'>Testimonials</FooterLink>
               <FooterLink to='/'>Careers</FooterLink>
               <FooterLink to='/'>Investors</FooterLink>
@@ -68,7 +68,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>RealNest ®</SocialLogo>
-            <WebsiteRights>RealNest © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>RealNest © 2021 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -77,7 +77,7 @@ const Footer = () => {
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='/'
+                href='https://www.youtube.com/channel/UCseJpo38yCECM5vtwy47NoA'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
